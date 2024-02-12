@@ -42,4 +42,9 @@ public class CarTest {
     public void canStartEngine() {
         assertThat(car.startEngine()).isEqualTo("VROOM I AM A CAR, THIS IS THE SOUND A CAR MAKES");
     }
+
+    @Test
+    public void canDrive() {
+        assertThat(car.drive()).isEqualTo("chkchkchk");
+    }
 }
