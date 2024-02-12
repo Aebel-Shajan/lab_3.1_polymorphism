@@ -10,4 +10,8 @@ public class Car extends Vehicle {
     public String startEngine() {
         return "VROOM I AM A CAR, THIS IS THE SOUND A CAR MAKES";
     }
+
+    public String getModel() {
+        return this.model;
+    }
 }
