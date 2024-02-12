@@ -1,7 +1,7 @@
 public abstract class Vehicle {
-    int numberOfWheels;
-    int maximumOccupancy;
-    float value;
+    private int numberOfWheels;
+    private int maximumOccupancy;
+    private float value;
 
     public Vehicle(int numberOfWheels, int maximumOccupancy, float value) {
         this.numberOfWheels = numberOfWheels;

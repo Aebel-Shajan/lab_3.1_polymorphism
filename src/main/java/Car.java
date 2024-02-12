@@ -1,6 +1,6 @@
 public class Car extends Vehicle {
 
-    String model;
+    private String model;
     public Car(int maximumOccupancy, float value, String model) {
         super(4, maximumOccupancy, value);
         this.model = model;
