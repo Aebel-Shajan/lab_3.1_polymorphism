@@ -13,17 +13,17 @@ public class BoatTest {
 
     @Test
     public void canGetNumberOfWheels() {
-        assertThat(boat.getNumberOfWheels()).isEqualTo(4);
+        assertThat(boat.getNumberOfWheels()).isEqualTo(0);
     }
 
     @Test
     public void canGetMaximumOccupancy() {
-        assertThat(boat.getMaximumOccupancy()).isEqualTo(5);
+        assertThat(boat.getMaximumOccupancy()).isEqualTo(6);
     }
 
     @Test
     public void canGetValue() {
-        assertThat(boat.getValue()).isEqualTo(1000f);
+        assertThat(boat.getValue()).isEqualTo(5000f);
     }
 
     @Test
@@ -46,7 +46,4 @@ public class BoatTest {
     public void canSail(){
         assertThat(boat.sail()).isEqualTo("shhhshhhshhh");
     }
-
-
-
 }
