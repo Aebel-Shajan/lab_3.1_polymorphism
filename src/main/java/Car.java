@@ -15,4 +15,7 @@ public class Car extends Vehicle {
         return "VROOM I AM A CAR, THIS IS THE SOUND A CAR MAKES";
     }
 
+    public String drive() {
+        return "chkchkchk";
+    }
 }
