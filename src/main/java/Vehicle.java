@@ -13,16 +13,8 @@ public abstract class Vehicle {
         return numberOfWheels;
     }
 
-    public void setNumberOfWheels(int numberOfWheels) {
-        this.numberOfWheels = numberOfWheels;
-    }
-
     public int getMaximumOccupancy() {
         return maximumOccupancy;
-    }
-
-    public void setMaximumOccupancy(int maximumOccupancy) {
-        this.maximumOccupancy = maximumOccupancy;
     }
 
     public float getValue() {
