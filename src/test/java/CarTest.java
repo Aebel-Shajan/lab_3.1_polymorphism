@@ -34,6 +34,11 @@ public class CarTest {
     }
 
     @Test
+    public void canGetModel() {
+        assertThat(car.getModel()).isEqualTo("Toyota Auris");
+    }
+
+    @Test
     public void canStartEngine() {
         assertThat(car.startEngine()).isEqualTo("VROOM I AM A CAR, THIS IS THE SOUND A CAR MAKES");
     }
