@@ -51,6 +51,6 @@ public class GarageTest {
         Car auris = new Car(5, 1000, "Toyota Auris");
         garage.addVehicle(auris);
         garage.addVehicle(lambo);
-        assertThat(garage.calulateCollectiveValue()).isEqualTo(11000);
+        assertThat(garage.calculateCollectiveValue()).isEqualTo(11000);
     }
 }
