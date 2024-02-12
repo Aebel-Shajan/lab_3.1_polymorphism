@@ -9,7 +9,7 @@ public class CarTest {
 
     @BeforeEach
     public void setUp() {
-        car = new Car("Toyota Auris");
+        car = new Car(5, 1000f, "Toyota Auris");
     }
 
     @Test
