@@ -26,32 +26,32 @@ public class GarageTest {
 
     @Test
     public void canGetVehicleCount() {
-        assertThat(garage.getVehicleCount()).isEqualTo(0);
+        assertThat(garage.getValuableCount()).isEqualTo(0);
     }
 
     @Test
     public void canAddVehicle() {
         Car lambo = new Car(2, 10000, "Lamborghini Huracan");
-        garage.addVehicle(lambo);
-        assertThat(garage.getVehicleCount()).isEqualTo(1);
+        garage.addValuable(lambo);
+        assertThat(garage.getValuableCount()).isEqualTo(1);
     }
 
     @Test
     public void canRemoveVehicle() {
         Car lambo = new Car(2, 10000, "Lamborghini Huracan");
         Car auris = new Car(5, 1000, "Toyota Auris");
-        garage.addVehicle(auris);
-        garage.addVehicle(lambo);
-        garage.removeVehicle(lambo);
-        assertThat(garage.getVehicleCount()).isEqualTo(1);
+        garage.addValuable(auris);
+        garage.addValuable(lambo);
+        garage.removeValuable(lambo);
+        assertThat(garage.getValuableCount()).isEqualTo(1);
     }
 
     @Test
     public void canCalculateCollectiveValue() {
         Car lambo = new Car(2, 10000, "Lamborghini Huracan");
         Car auris = new Car(5, 1000, "Toyota Auris");
-        garage.addVehicle(auris);
-        garage.addVehicle(lambo);
+        garage.addValuable(auris);
+        garage.addValuable(lambo);
         assertThat(garage.calculateCollectiveValue()).isEqualTo(11000);
     }
 }
