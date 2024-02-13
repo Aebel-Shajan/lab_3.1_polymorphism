@@ -41,7 +41,7 @@ public class PlaneTest {
 
     @Test
     public void canStartEngine() {
-        assertThat(plane.startEngine()).isEqualTo("engine starting");
+        assertThat(plane.startEngine()).isEqualTo("plane starting");
     }
 
     @Test
