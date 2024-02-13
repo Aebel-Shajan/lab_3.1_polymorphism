@@ -27,4 +27,9 @@ public class PianoTest {
     public void canPlaySongOnPiano() {
         assertThat(piano.playPiano("skibidi")).isEqualTo("now playing: skibidi");
     }
+
+    @Test
+    public void canPlaySongOnPianoForDuration() {
+        assertThat(piano.playPiano("beethoven", 100)).isEqualTo("now playing: beethoven for 100 seconds");
+    }
 }
