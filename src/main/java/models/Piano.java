@@ -22,4 +22,8 @@ public class Piano implements IGetValue {
         return "now playing: " + song;
     }
 
+    public String playPiano(String song, double duration) {
+        return "now playing: " + song + " for " + duration + " seconds";
+    }
+
 }
