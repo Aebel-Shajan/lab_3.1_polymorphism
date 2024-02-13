@@ -11,7 +11,7 @@ public class Piano implements IGetValue {
 
     @Override
     public float getValue() {
-        return 0;
+        return this.value;
     }
 
 }
