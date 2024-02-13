@@ -27,7 +27,5 @@ public abstract class Vehicle {
         this.value = value;
     }
 
-    public String startEngine() {
-        return "engine starting";
-    }
+    public abstract String startEngine();
 }
