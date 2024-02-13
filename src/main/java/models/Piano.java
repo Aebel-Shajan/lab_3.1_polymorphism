@@ -18,4 +18,8 @@ public class Piano implements IGetValue {
         this.value = value;
     }
 
+    public String playPiano(String song) {
+        return "now playing: " + song;
+    }
+
 }
