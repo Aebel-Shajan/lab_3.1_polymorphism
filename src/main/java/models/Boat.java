@@ -1,3 +1,5 @@
+package models;
+
 public class Boat extends Vehicle {
     private String type;
 

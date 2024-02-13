@@ -1,3 +1,5 @@
+package models;
+
 public abstract class Vehicle {
     private int numberOfWheels;
     private int maximumOccupancy;

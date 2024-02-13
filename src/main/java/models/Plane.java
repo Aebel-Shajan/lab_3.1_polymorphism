@@ -1,3 +1,5 @@
+package models;
+
 public class Plane extends Vehicle{
     private int engineNumber;
 
