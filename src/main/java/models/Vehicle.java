@@ -1,6 +1,8 @@
 package models;
 
-public abstract class Vehicle {
+import interfaces.IGetValue;
+
+public abstract class Vehicle implements IGetValue {
     private int numberOfWheels;
     private int maximumOccupancy;
     private float value;
