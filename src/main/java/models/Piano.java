@@ -14,4 +14,8 @@ public class Piano implements IGetValue {
         return this.value;
     }
 
+    public void setValue(float value) {
+        this.value = value;
+    }
+
 }
