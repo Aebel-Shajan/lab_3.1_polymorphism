@@ -12,6 +12,10 @@ public class Plane extends Vehicle{
         return engineNumber;
     }
 
+    public String startEngine() {
+        return "plane starting";
+    }
+
     public String fly() {
         return "wheeeee plane be flying";
     }
