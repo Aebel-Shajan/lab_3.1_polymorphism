@@ -16,4 +16,10 @@ public class PianoTest {
     public void canGetValue() {
         assertThat(piano.getValue()).isEqualTo(100f);
     }
+
+    @Test
+    public void canSetValue() {
+        piano.setValue(300);
+        assertThat(piano.getValue()).isEqualTo(300);
+    }
 }
