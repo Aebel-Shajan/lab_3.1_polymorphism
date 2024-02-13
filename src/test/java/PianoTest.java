@@ -22,4 +22,9 @@ public class PianoTest {
         piano.setValue(300);
         assertThat(piano.getValue()).isEqualTo(300);
     }
+
+    @Test
+    public void canPlaySongOnPiano() {
+        assertThat(piano.playPiano("skibidi")).isEqualTo("now playing: skibidi");
+    }
 }
